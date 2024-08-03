@@ -8,6 +8,7 @@ return {
 
   -- System.
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.recipes.neovide" },
 
   -- Languages.
   { import = "astrocommunity.pack.lua" },
