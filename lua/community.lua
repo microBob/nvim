@@ -7,7 +7,7 @@ return {
   "AstroNvim/astrocommunity",
 
   -- System.
-  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.recipes.neovide" },
 
   -- Languages.
