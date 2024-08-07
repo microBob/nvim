@@ -12,5 +12,6 @@ return {
 
   -- Languages.
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.python-ruff" },
   -- import/override with your plugins folder
 }
