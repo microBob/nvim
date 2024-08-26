@@ -9,6 +9,7 @@ return {
   -- System.
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.recipes.neovide" },
+  { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
 
   -- Editing.
   { import = "astrocommunity.motion.mini-surround" },
@@ -17,5 +18,5 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.nix" },
   { import = "astrocommunity.pack.python-ruff" },
-  -- import/override with your plugins folder
+  { import = "astrocommunity.pack.markdown" },
 }
