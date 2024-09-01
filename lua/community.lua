@@ -10,6 +10,7 @@ return {
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
+  { import = "astrocommunity.markdown-and-latex.markview-nvim" },
 
   -- Editing.
   { import = "astrocommunity.motion.mini-surround" },
