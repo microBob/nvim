@@ -66,6 +66,36 @@ return {
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
+
+        -- Editing updates.
+        ["A"] = {
+          function() return vim.fn.virtcol "$" > vim.fn.col "$" and "g$a" or "A" end,
+          desc = "Append to visual line",
+          expr = true,
+          noremap = true,
+          silent = true,
+        },
+        ["I"] = {
+          function() return vim.fn.virtcol "$" > vim.fn.col "$" and "g0i" or "I" end,
+          desc = "Insert to start of visual line",
+          expr = true,
+          noremap = true,
+          silent = true,
+        },
+        ["D"] = {
+          function() return vim.fn.virtcol "$" > vim.fn.col "$" and "vg$hd" or "D" end,
+          desc = "Delete to end of visual line",
+          expr = true,
+          noremap = true,
+          silent = true,
+        },
+        ["C"] = {
+          function() return vim.fn.virtcol "$" > vim.fn.col "$" and "vg$hc" or "C" end,
+          desc = "Change to end of visual line",
+          expr = true,
+          noremap = true,
+          silent = true,
+        },
       },
       t = {
         ["<Esc><Esc>"] = { "<C-\\><C-n>", desc = "Exit terminal mode" },
