@@ -14,10 +14,12 @@ return {
 
   -- Editing.
   { import = "astrocommunity.motion.mini-surround" },
+  -- { import = "astrocommunity.pack.harper" },
 
   -- Languages.
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.nix" },
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.yaml" },
 }
